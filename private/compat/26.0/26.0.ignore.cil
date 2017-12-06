@@ -3,7 +3,8 @@
 ;;   previous ones.  Add here to pass checkapi tests.
 (typeattribute new_objects)
 (typeattributeset new_objects
-  ( adbd_exec
+  ( adb_device
+    adbd_exec
     broadcastradio_service
     e2fs
     e2fs_exec
@@ -17,6 +18,7 @@
     netd_stable_secret_prop
     package_native_service
     substratum_service
+    sdcard_posix
     sysfs_fs_ext4_features
     system_net_netd_hwservice
     theme_data_file
